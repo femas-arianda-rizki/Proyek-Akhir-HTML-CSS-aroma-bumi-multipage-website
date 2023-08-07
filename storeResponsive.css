@@ -1,0 +1,40 @@
+@media (max-width: 670px) {
+  .main {
+    flex-direction: column-reverse;
+    padding: 0 37px;
+    margin-top: 144px;
+    margin-bottom: 40px;
+  }
+
+  .listStore h1 {
+    font-size: 20px;
+    margin-top: 36.35px;
+  }
+
+  .listStore p {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .stores {
+    width: 270px;
+    height: 120px;
+    padding: 20px 24px;
+    border-radius: 10px;
+  }
+
+  .stores h2 {
+    font-size: 16px;
+  }
+
+  .stores p {
+    font-size: 12px;
+  }
+
+  .maps iframe {
+    height: 280px;
+    width: 280px;
+    border-radius: 10px;
+  }
+}

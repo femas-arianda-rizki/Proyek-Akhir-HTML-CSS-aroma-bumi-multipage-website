@@ -1,0 +1,271 @@
+header {
+  background-image: url(gambar/Coffe\ Header.png);
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.headerWrapper {
+  background-color: rgba(20, 54, 66, 0.7);
+  height: 700px;
+  border-radius: 30px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.headerLogo {
+  width: 335px;
+  height: 67px;
+  margin-top: 39px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.headerList {
+  margin-top: 54px;
+  margin-right: 50px;
+}
+
+.headerList a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: white;
+  font-size: 30px;
+}
+
+.headerList a:hover {
+  color: grey;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 448px;
+}
+
+.topTitle {
+  width: 500px;
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+
+.bottomTitle {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.content1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 257px;
+}
+
+.content1Picture {
+  width: 350px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.content1Text {
+  padding-left: 70px;
+}
+
+.content1Text h1 {
+  display: inline;
+  color: #0f8b8d;
+  font-size: 48px;
+  border-bottom: 5px solid #ec9a29;
+  font-weight: 800;
+}
+
+.content1Text h2 {
+  font-size: 24px;
+  color: rgba(20, 54, 66, 1);
+  padding-top: 15px;
+  font-weight: 400;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 50px 257px;
+}
+
+.content2Picture {
+  width: 335px;
+  height: 335px;
+  border-radius: 15px;
+}
+
+.content2Text {
+  padding-right: 76px;
+}
+
+.content2Text h1 {
+  display: inline;
+  color: #0f8b8d;
+  font-size: 48px;
+  border-bottom: 5px solid #ec9a29;
+  font-weight: 800;
+}
+
+.content2Text h2 {
+  font-size: 24px;
+  color: rgba(20, 54, 66, 1);
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+
+.content2Text a {
+  background-color: #a8201a;
+  border-radius: 55px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  height: 29px;
+  width: 236px;
+  padding: 10px 50px;
+}
+
+.content2Text a:hover {
+  color: black;
+  background-color: beige;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px 257px;
+}
+
+.content3Picture {
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+}
+
+.content3Text {
+  padding-left: 100px;
+}
+
+.content3Text h1 {
+  display: inline;
+  color: #0f8b8d;
+  font-size: 48px;
+  border-bottom: 5px solid #ec9a29;
+  font-weight: 800;
+}
+
+.content3Text h2 {
+  font-size: 24px;
+  color: rgba(20, 54, 66, 1);
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+
+.content3Text a {
+  background-color: #a8201a;
+  border-radius: 55px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  height: 29px;
+  width: 236px;
+  padding: 10px 50px;
+}
+
+.content3Text a:hover {
+  color: black;
+  background-color: beige;
+}
+
+.findUsTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 25px 257px;
+  color: #0f8b8d;
+}
+
+.findUsTitle h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.findUsTitle a {
+  text-decoration: none;
+}
+
+.findUsTitle span {
+  color: #ec9a29;
+  border-bottom: 4px solid #ec9a29;
+}
+
+.findUsFeeds {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  padding: 0 200px;
+}
+
+.feed {
+  margin: 25px 50px;
+  width: 237px;
+  height: 237px;
+}
+
+.askUs {
+  padding: 0 257px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.askUs h1 {
+  color: #0f8b8d;
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+.askUs h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #143642;
+}
+
+.askUs a {
+  background-color: #a8201a;
+  border-radius: 55px;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  height: 29px;
+  width: 236px;
+  padding: 10px 50px;
+}
+
+.askUs a:hover {
+  color: black;
+  background-color: beige;
+}

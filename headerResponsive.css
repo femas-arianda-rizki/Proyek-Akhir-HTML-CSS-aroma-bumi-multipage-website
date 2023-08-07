@@ -1,0 +1,32 @@
+@media (max-width: 670px) {
+  header {
+    border-radius: 20px 20px 0 0;
+    height: 104px;
+  }
+
+  .headerContainer {
+    flex-direction: column;
+  }
+
+  .headerLogo {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 0;
+    width: 135px;
+    height: 27px;
+  }
+
+  .headerList {
+    margin-top: 20px;
+    margin-left: 57px;
+    margin-right: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .headerList a {
+    font-size: 14px;
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,84 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 218px;
+  margin-bottom: 80px;
+  margin-top: 145px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.title h1 {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+.title h2 {
+  color: #143642;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-image: url(gambar/Coffee\ background.png);
+  width: 216px;
+  height: 216px;
+  margin: 20px 59px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 21px;
+}
+
+.content:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+
+.content:hover .contentText {
+  transform: translateY(225%);
+  transition: transform 1s ease;
+}
+
+.content:hover img {
+  transform: translateY(-53%) scale(1.2);
+  transition: transform 1s ease;
+}
+
+.contentText h1 {
+  color: #f9fbfe;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.contentText h2 {
+  color: #f9fbfe;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.content img {
+  width: 186px;
+  height: 139.632px;
+}

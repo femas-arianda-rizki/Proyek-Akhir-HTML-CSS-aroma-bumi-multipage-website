@@ -1,0 +1,86 @@
+.main {
+  margin-top: 245px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 180px;
+}
+
+.mainTitle {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 800;
+  padding-bottom: 50px;
+}
+
+.mainBox {
+  border-radius: 20px;
+  border: 2px solid #d2d2d2;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 98px;
+}
+
+.inputs h1 {
+  color: #143642;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.inputs input {
+  width: 493px;
+  height: 71px;
+  border-radius: 20px;
+  border: 2px solid #d2d2d2;
+  text-indent: 30px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.inputs textarea {
+  width: 493px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid #d2d2d2;
+  text-indent: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+.inputName {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.inputPhoneNumber {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.inputMessage {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.btnWrapper {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.btnWrapper a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #f9fbfe;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 20px 70px;
+  background-color: #a8201a;
+  border-radius: 55px;
+}
